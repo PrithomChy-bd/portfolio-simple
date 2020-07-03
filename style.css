@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.first{
+    padding-top: 100px;
+    height: 570px;
+    background-image: url(img/header.png);
+    background-position: top;
+    background-size: cover;
+}
+.first .left-side{
+    width: 40%;
+    float: left;
+    margin: 7% 0 0 15%;
+    height: 550px;
+    overflow: hidden;
+}
+.first .left-side h2{
+    font-size: 50px;
+    
+}
+.first .left-side .orange-text{
+    color: orange;
+}
+.first .left-side .first-p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.first .left-side a{
+    overflow: hidden;
+}
+.first .left-side .button{
+    text-decoration: none;
+    border: 1px solid #F5680B;
+    border-radius: 5px;
+    padding: 8px 22px;
+    background-image: linear-gradient(#da844a,#F5680B);
+    color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.first .left-side .button:hover{
+    background-image: none;
+    border: 2px dotted #F5680B;
+    color: #F5680B;
+}
+.first .right-side{
+    
+    height: auto;
+}
+.first .right-side img{
+    width: 35%;
+    
+    
+}
+
+/* uhfuehf */
+
+
+
+.second{
+    width: 100%;
+    background-image: url(img/biography.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 850px;
+
+}
+.second .left-side{
+    width: auto;
+    
+}
+.second .left-side img{
+    width: 40%;
+    margin: 0 5%;
+    float: left;
+    
+}
+.second .right-side{
+    width: 35%;
+    float: left;
+    margin: 0 5%;
+    float: right;
+}
+.second .right-side h2{
+    font-size: 40px;
+}
+.second .right-side .button{
+    text-decoration: none;
+    border: 1px solid #F5680B;
+    border-radius: 5px;
+    padding: 8px 22px;
+    background-image: linear-gradient(#da844a,#F5680B);
+    color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.second .right-side .button:hover{
+    background-image: none;
+    border: 2px dotted #F5680B;
+    color: #F5680B;
+}
+.work-bd{
+    margin-left: 160px;
+    background-image: url(img/latest-work.png);
+    background-size: cover;
+    background-position: left;
+    height: 370px;
+}
+
+
+.work-bd .work img{
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin: 0px 2%;
+ 
+    opacity: 1;
+}
+.work-bd .work img:hover{
+    opacity: 0.3;
+    transform: .5s;
+}
+footer{
+    height: 570px;
+    background-image: url(img/header.png);
+    background-position: top;
+    background-size: cover;
+}
+.hero {
+    background-color: #EC4F8F;
+    text-align: center;
+    display: inline-block;
+    margin-left: 370px;
+    padding: 25px 150px;
+    color: White;
+    border-radius: 7px;
+    margin-bottom: 120px;
+}
